@@ -205,6 +205,8 @@ exclude:
   - _pages/teaching.md # Remove the "teaching" page
   - _books # Remove the "bookshelf" page
   - _pages/dropdown.md # Remove the "submenus" menu
+  - _pages/cv.md # Remove the "cv" page
+  - assets/json/resume.json
 keep_files:
   - CNAME
   - .nojekyll
