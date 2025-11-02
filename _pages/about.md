@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate @ [Brown CS](https://cs.brown.edu/) researching abstraction learning for robot planning
+subtitle: PhD Candidate @ <a href='https://cs.brown.edu/'>Brown CS</a> researching abstraction learning for robot planning
 
 profile:
   align: right
@@ -27,6 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! I'm a third-year PhD candidate in Computer Science at Brown University, where I am co-advised by Professors [Stefanie Tellex](https://cs.brown.edu/people/stellex/) and [George Konidaris](https://cs.brown.edu/people/gdk/). My research investigates how robots can learn abstractions for planning that enable zero-shot long-horizon problem solving. Before my PhD, I received my B.S. in Computer Science and B.A. in Linguistics from the University of Rochester.
+Hello! I'm a third-year PhD candidate in Computer Science at Brown University, where I am advised by Professors [Stefanie Tellex](https://cs.brown.edu/people/stellex/) and [George Konidaris](https://cs.brown.edu/people/gdk/). My research investigates how robots can learn abstractions for planning that enable zero-shot long-horizon problem solving. Before my PhD, I received my B.S. in Computer Science and B.A. in Linguistics from the University of Rochester.
 
 I want to make robots more capable so that they may solve the kinds of complex real-world problems abundant in everyday life (e.g., _"Clear the table and run the dishwasher"_). I view _abstraction_ as a key concept underlying this type of reasoning: robots must be able to simplify problems by ignoring irrelevant details, enabling high-level planning of "what to do" before fleshing out "how to do it." Toward these aims, my research studies how robots can _learn abstractions for planning_ so that they can apply their capabilities in new ways when faced with unseen problems. This work draws upon methods including task and motion planning, neuro-symbolic artificial intelligence, and hierarchical reinforcement learning. I am excited by this intersection due to its potential to combine the foresight possible through planning with the flexibility of modern learning methods.
