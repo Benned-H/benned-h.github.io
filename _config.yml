@@ -205,6 +205,7 @@ exclude:
   - _pages/profiles.md # Remove the "people" page
   - _pages/teaching.md # Remove the "teaching" page
   - _books # Remove the "bookshelf" page
+  - _pages/dropdown.md # Remove the "submenus" menu
 keep_files:
   - CNAME
   - .nojekyll
