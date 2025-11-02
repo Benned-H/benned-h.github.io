@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>PhD Candidate @ Brown CS</a>. Robotics. Abstraction Learning. Task and Motion Planning.
+subtitle: PhD Candidate @ [Brown CS](https://cs.brown.edu/) researching abstraction learning for robot planning
 
 profile:
   align: right
