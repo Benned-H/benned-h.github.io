@@ -13,9 +13,9 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: robotics, artificial intelligence, abstraction learning, task and motion planning, TAMP, Benned Hedegaard
+keywords: ""
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🦾 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://benned-h.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -195,10 +195,19 @@ exclude:
   - _pages/blog.md
   - _news # Remove the "news" section
   - _includes/news.liquid
+  - _pages/news.md
   - _projects # Remove the "projects" page
   - _pages/projects.md
   - _bibliography # Remove the "publications" page
   - _pages/publications.md
+  - _layouts/bib.liquid
+  - _includes/bib_search.liquid
+  - _includes/citation.liquid
+  - _includes/selected_papers.liquid
+  - _plugins/google-scholar-citations.rb
+  - _plugins/hide-custom-bibtex.rb
+  - _plugins/inspirehep-citations.rb
+  - assets/bibliography
   - _pages/repositories.md # Remove the "repositories" page
   - _includes/repository
   - _pages/profiles.md # Remove the "people" page
@@ -207,6 +216,8 @@ exclude:
   - _pages/dropdown.md # Remove the "submenus" menu
   - _pages/cv.md # Remove the "cv" page
   - assets/json/resume.json
+  - assets/video
+  - assets/plotly
 keep_files:
   - CNAME
   - .nojekyll
@@ -215,15 +226,15 @@ keep_files:
 plugins:
   - jekyll-archives-v2
   - jekyll-email-protect
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
-  - jekyll-jupyter-notebook
+  # - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-regex-replace
-  - jekyll/scholar
+  # - jekyll/scholar
   - jekyll-sitemap
   - jekyll-tabs
   - jekyll-terser
