@@ -24,6 +24,13 @@ ninja.data = [{
           window.open("mailto:%62%65%6E%6E%65%64_%68%65%64%65%67%61%61%72%64@%62%72%6F%77%6E.%65%64%75", "_blank");
         },
       },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=zF0I_3cAAAAJ", "_blank");
+        },
+      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
@@ -36,13 +43,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/bennedhedegaard", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=zF0I_3cAAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
