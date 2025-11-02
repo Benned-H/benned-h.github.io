@@ -2,22 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>PhD Candidate @ Brownn CS</a>. Robotics. Abstraction Learning. Task and Motion Planning.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: benned.png
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  # more_info: >
+  #   <p>555 your office number</p>
+  #   <p>123 your address street</p>
+  #   <p>Your City, State 12345</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -27,8 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I'm a third-year PhD candidate in Computer Science at Brown University, where I am co-advised by Professors [Stefanie Tellex](https://cs.brown.edu/people/stellex/) and [George Konidaris](https://cs.brown.edu/people/gdk/). My research investigates how robots can learn abstractions for planning that enable zero-shot long-horizon problem solving. Before my PhD, I received my B.S. in Computer Science and B.A. in Linguistics from the University of Rochester.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I want to make robots more capable so that they may solve the kinds of complex real-world problems abundant in everyday life (e.g., *"Clear the table and run the dishwasher"*). I view *abstraction* as a key concept underlying this type of reasoning: robots must be able to simplify problems by ignoring irrelevant details, enabling high-level planning of "what to do" before fleshing out "how to do it." Toward these aims, my research studies how robots can *learn abstractions for planning* so that they can apply their capabilities in new ways when faced with unseen problems. This work draws upon methods including task and motion planning, neuro-symbolic artificial intelligence, and hierarchical reinforcement learning. I am excited by this intersection due to its potential to combine the foresight possible through planning with the flexibility of modern learning methods.
