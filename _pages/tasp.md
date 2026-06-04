@@ -11,12 +11,12 @@ nav: false
 
   <p class="mt-3">
     <a href="/">Benned Hedegaard</a><sup>*,1</sup>&ensp;
-    Yichen Wei<sup>*,1</sup>&ensp;
-    Ziyi Yang<sup>1</sup>&ensp;
-    Ahmed Jaafar<sup>1</sup>&ensp;
+    <a href="https://weiyichen.me/">Yichen Wei</a><sup>*,1</sup>&ensp;
+    <a href="https://yzylmc.github.io/">Ziyi Yang</a><sup>1</sup>&ensp;
+    <a href="https://www.ahmedjaafar.com/">Ahmed Jaafar</a><sup>1</sup>&ensp;
     <a href="https://cs.brown.edu/people/stellex/">Stefanie Tellex</a><sup>1</sup>&ensp;
     <a href="https://cs.brown.edu/people/gdk/">George Konidaris</a><sup>1</sup>&ensp;
-    Naman Shah<sup>1,2</sup>
+    <a href="https://www.namanshah.net/">Naman Shah</a><sup>1,2</sup>
   </p>
   <p class="text-muted small">
     <sup>1</sup>Department of Computer Science, Brown University &nbsp;&nbsp;
@@ -27,6 +27,12 @@ nav: false
   <div class="mt-3">
     <a href="/assets/pdf/TASP-ICRA-2026.pdf" class="btn btn-sm btn-outline-secondary me-2" target="_blank">
       <i class="fas fa-file-pdf"></i> &nbsp;Paper
+    </a>
+    <a href="#video" class="btn btn-sm btn-outline-secondary me-2">
+      <i class="fas fa-video"></i> &nbsp;Videos
+    </a>
+    <a href="https://github.com/Benned-H/spot_skills" class="btn btn-sm btn-outline-secondary me-2" target="_blank">
+      <i class="fab fa-github"></i> &nbsp;Code
     </a>
     <a href="#bibtex" class="btn btn-sm btn-outline-secondary">
       <i class="fas fa-quote-right"></i> &nbsp;BibTeX
@@ -54,6 +60,27 @@ Task and motion planning (TAMP) is a well-established approach for solving long-
 Our approach integrates pre-existing, heterogeneous robot skills - including learned, force-controlled, and black-box policies - into a hierarchical planner while preserving the object-centric failure reasoning of typical TAMP solvers. We leverage **Composable Interaction Primitives (CIPs)** to synthesize head and tail motion plans bridging consecutive skills, facilitating both planning-time refinement and execution-time adjustment.
 
 We validate our **Task and Skill Planning (TASP)** approach through real-world experiments on a bimanual manipulator and a mobile manipulator, demonstrating that CIPs enable diverse robots to combine heterogeneous skills to solve complex, long-horizon tasks, including multi-room mobile manipulation problems with non-monotonic task structure.
+
+---
+
+<div id="video"></div>
+
+## Video Demonstrations
+
+<div class="row my-4">
+  <div class="col-md-6">
+    <p class="text-center fw-semibold">Bimanual Manipulator</p>
+    <video width="100%" controls>
+      <source src="/assets/video/dorfl_demo_12x.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="col-md-6">
+    <p class="text-center fw-semibold">Mobile Manipulator (Spot)</p>
+    <video width="100%" controls>
+      <source src="/assets/video/spot_demo_24x.mp4" type="video/mp4">
+    </video>
+  </div>
+</div>
 
 ---
 
