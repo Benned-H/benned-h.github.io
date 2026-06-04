@@ -20,7 +20,7 @@ nav: false
   </p>
   <p class="text-muted small">
     <sup>1</sup>Department of Computer Science, Brown University &nbsp;&nbsp;
-    <sup>2</sup>Allen Institute for AI &nbsp;&nbsp;
+    <sup>2</sup>Allen Institute for Artificial Intelligence &nbsp;&nbsp;
     <sup>*</sup>Equal contribution
   </p>
 
