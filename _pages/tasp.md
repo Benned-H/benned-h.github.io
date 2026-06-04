@@ -70,15 +70,17 @@ We validate our **Task and Skill Planning (TASP)** approach through real-world e
 <div class="row my-4">
   <div class="col-md-6">
     <p class="text-center fw-semibold">Bimanual Manipulator</p>
-    <video width="100%" controls>
-      <source src="/assets/video/dorfl_demo_12x.mp4" type="video/mp4">
-    </video>
+    <iframe width="100%" style="aspect-ratio: 16/9;"
+      src="https://www.youtube.com/embed/H7fwDbF_5-o"
+      frameborder="0" allowfullscreen>
+    </iframe>
   </div>
   <div class="col-md-6">
     <p class="text-center fw-semibold">Mobile Manipulator (Spot)</p>
-    <video width="100%" controls>
-      <source src="/assets/video/spot_demo_24x.mp4" type="video/mp4">
-    </video>
+    <iframe width="100%" style="aspect-ratio: 16/9;"
+      src="https://www.youtube.com/embed/es1sIuLiuqM"
+      frameborder="0" allowfullscreen>
+    </iframe>
   </div>
 </div>
 
