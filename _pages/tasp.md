@@ -25,13 +25,24 @@ nav: false
   </p>
 
   <div class="mt-3">
-    <a href="/assets/pdf/TASP-ICRA-2026.pdf" class="btn btn-sm btn-outline-dark me-2" target="_blank">
+    <a href="/assets/pdf/TASP-ICRA-2026.pdf" class="btn btn-sm btn-outline-secondary me-2" target="_blank">
       <i class="fas fa-file-pdf"></i> &nbsp;Paper
     </a>
-    <a href="#bibtex" class="btn btn-sm btn-outline-dark">
+    <a href="#bibtex" class="btn btn-sm btn-outline-secondary">
       <i class="fas fa-quote-right"></i> &nbsp;BibTeX
     </a>
   </div>
+</div>
+
+---
+
+<div class="text-center my-4">
+  <img src="/assets/img/tasp/graphical-abstract.jpeg"
+       alt="TASP composes heterogeneous robot skills — including off-the-shelf, learned, and force-controlled policies — into long-horizon plans."
+       class="img-fluid rounded" style="max-width: 80%;">
+  <p class="text-muted small mt-2">
+    TASP composes heterogeneous robot skills — including off-the-shelf, learned, and force-controlled policies — into long-horizon plans.
+  </p>
 </div>
 
 ---
@@ -42,11 +53,13 @@ Task and motion planning (TAMP) is a well-established approach for solving long-
 
 Our approach integrates pre-existing, heterogeneous robot skills - including learned, force-controlled, and black-box policies - into a hierarchical planner while preserving the object-centric failure reasoning of typical TAMP solvers. We leverage **Composable Interaction Primitives (CIPs)** to synthesize head and tail motion plans bridging consecutive skills, facilitating both planning-time refinement and execution-time adjustment.
 
-We validate our ****Task and Skill Planning (TASP)** approach through real-world experiments on a bimanual manipulator and a mobile manipulator, demonstrating that CIPs enable diverse robots to combine heterogeneous skills to solve complex, long-horizon tasks, including multi-room mobile manipulation problems with non-monotonic task structure.
+We validate our **Task and Skill Planning (TASP)** approach through real-world experiments on a bimanual manipulator and a mobile manipulator, demonstrating that CIPs enable diverse robots to combine heterogeneous skills to solve complex, long-horizon tasks, including multi-room mobile manipulation problems with non-monotonic task structure.
 
 ---
 
 ## BibTeX
+
+<div id="bibtex"></div>
 
 ```bibtex
 @inproceedings{hedegaard2026tasp,
